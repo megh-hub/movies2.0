@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    background-color:rgb(236, 231, 212);
+    text-align: center;
+    align-items: center;
+}
+
+header{
+    background-color: darkgray;
+    box-align: center;
+    font-size:40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:'Fascinate',serif;
+}
+.showcase-heading{
+    font-size:30px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.flex-container{
+    height:auto;
+    margin:20px;
+    background: #D6D6D6;
+    /*add flexbox style*/
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow:wrap;
+    overflow: hidden;
+    font-family:"Roboto",serif;
+    font-size: 1.2rem;
+}
+.box img {
+    height:350px;
+    margin:20px;
+    box-sizing:border-box ;
+}
+.box2 img{
+    height:350px;
+    margin:20px;
+    box-sizing:border-box ;
+}
+footer{
+    background-color: darkgray;
+    box-align: center;
+    font-size:15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*add responsive media quaries*/
+
+@media screen and (max-width:580px){
+        .box img{
+            width:80%;
+        }
+        .box2 img{
+            width:80%;
+        }
+}
